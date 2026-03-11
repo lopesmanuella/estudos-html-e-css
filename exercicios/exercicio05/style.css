@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(40,40,60);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 120px;
+    color: white;
+}
+
+.botao{
+    display: inline-block;
+    margin-top: 30px;
+    padding: 15px 25px;
+    background-color: rgb(100,120,255);
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: 0.2s;
+}
+
+.botao:hover{
+    background-color: rgb(70,90,220);
+    transform: scale(1.05);
+}
